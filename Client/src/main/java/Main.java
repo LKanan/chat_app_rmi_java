@@ -26,7 +26,7 @@ public class Main {
         System.out.println("Serveur User2 démarré localement.");
 
         // 4. Chercher l'objet distant de l'ami (User1) sur son IP
-        System.out.println("Connexion au serveur de l'ami (User1)...");
+        System.out.println("Connexion au serveur (User1)...");
         IUser1Remote stubUser1 = (IUser1Remote) Naming.lookup("rmi://10.87.233.155:1099/user1");
         
         System.out.println("Connecté à User1 !");
